@@ -6,3 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+netstat2 = "0.9"
+psutil = { version = "3.2.1", default-features = false, features = ["process"] }
+clap = { version = "3.1.12", features = ["derive"] }
+
